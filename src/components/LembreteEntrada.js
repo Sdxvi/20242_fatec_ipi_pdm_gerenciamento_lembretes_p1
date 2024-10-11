@@ -29,7 +29,7 @@ export default class LembreteEntrada extends Component {
                             placeholder="Digite aqui seu lembrete..."/>
                         </div>
                         <div className="col-sm-12 col-lg-1">
-                            <button type="submit" class="btn btn-outline-secondary w-100">Ok</button>
+                            <button type="submit" class="btn btn-outline-secondary w-100">OK</button>
                         </div>
                     </div>
                 </div>
