@@ -1,0 +1,40 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  body, html{
+    height: 100%;
+    background-image: url('./imagens/Lembrete-fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #f7e9ff;
+  }
+  
+  .tela {
+    width: 50%;
+    margin: 10 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .empty-lista {
+    font-family: 'Comic Sans MS';
+  }
+  
+  .empty-imagem {
+    width: 400px;
+  }
+
+  .lembrete-card {
+    font-family: 'Comic Sans MS';
+    background: #E1DBFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px; 
+  }

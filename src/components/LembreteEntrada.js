@@ -11,17 +11,16 @@ export default class LembreteEntrada extends Component {
 
     onFormSubmit = (event) => {
         event.preventDefault()
-        console.log(this.state.lembrete)
         this.props.onLembreteAdicionado(this.state.lembrete)
         this.setState({ lembrete: '' })
     }
-
+    
     render(){
         return (
             <form onSubmit={this.onFormSubmit}>
                 <div className="container">
                     <div className="row justify-content-center">
-                        <div className="col-md-12 col-lg-7">
+                        <div className="col-md-12 col-lg-8">
                             <input 
                             value={this.state.lembrete} 
                             type="text" 
@@ -30,7 +29,7 @@ export default class LembreteEntrada extends Component {
                             placeholder="Digite aqui seu lembrete..."
                             required/>
                         </div>
-                        <div className="col-md-12 col-lg-1">
+                        <div className="col-md-12 col-lg-2">
                             <button type="submit" class="btn btn-outline-secondary w-100">OK</button>
                         </div>
                     </div>
